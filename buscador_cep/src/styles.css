@@ -9,9 +9,18 @@
 }
 
 .title{
-    font-size: 60px;    
+    font-size: 60px;   
+    animation: flipTitle 2s; 
 }
 
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
 .containerInput{
 
     padding: 20px;
